@@ -54,8 +54,11 @@ For example, this line will output a character 'H' (characters are not 'u' or 'n
 
 ```
 uuuuuuun uuuuuuuuuu uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuunuuu
+00000001 0000000000 000001 0000000000000000000000000000000001001000
 -------- ---------- ------ ----------------------------------------
 op code   address   remain                  data
+
+// The ASCII code of 'H' is 1001000.
 ```
 
 ## Instructors
