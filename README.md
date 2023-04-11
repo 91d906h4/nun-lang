@@ -18,7 +18,6 @@
     </li>
     <li><a href="#basic">Basic</a></li>
     <li><a href="#instructors">Instructors</a></li>
-    <li><a href="#examples">Examples</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -52,35 +51,14 @@ For example, this line will output a character 'H' (characters are not 'u' or 'n
 
 ```
 uuuuuuun uuuuuuuuuu uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuunuuu
-
-00000001 0000000000 000001 0000000000000000000000000000000001001000
 -------- ---------- ------ ----------------------------------------
 op code   address   remain                  data
-
-// The ASCII code of 'H' is 1001000.
 ```
 
 ## Instructors
 
 nun lang provides 10 operators and3 remain types (for more information please refer to the source code).
 
-## Examples
-
-1. A program to multiply 1073741825 by 8, and print the result on the screen.
-
-```
-uuuuunnn uuuuuuuuun uuuuuu uuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuun MOV 1 1073741825
-uuuuunnn uuuuuuuunu uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuu MOV 2 8
-uuuuunun uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunu MUL 1 2
-uuuuuunu uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu MSGA 1 // 8589934600
-```
-
-A compressed version:
-
-```
-uuuuunnnuuuuuuuuunuuuuuuuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuunnnuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuuuuununuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuuuunuuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-```
-
 ## Lisence
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE.md` for more information.

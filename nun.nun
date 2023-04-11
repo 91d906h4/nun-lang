@@ -1,0 +1,34 @@
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuunuuu H
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnuunun e
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnunnuu l
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnunnuu l
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnunnnn o
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuununnuu ,
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuu (space)
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunununnn W
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnunnnn o
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnnuunu r
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnunnuu l
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunnuunuu d
+uuuuuuun uuuuuuuuun uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuun !
+uuuuuuun uuuuuuuuuu uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuununu (chl)
+
+uuuuunnn uuuuuuuuun uuuuuu uuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuun MOV 1 1073741825
+uuuuunnn uuuuuuuunu uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuu MOV 2 8
+uuuuunun uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunu MUL 1 2
+uuuuuunu uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu MSGA 1 // 8589934600
+uuuuuuun uuuuuuuuuu uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuununu (chl)
+
+uuuuuuun uuuuuuuuuu uuuunu nuuuuuuuuuuuuuuuuuuunuuuuuuuuuuuuuuuuuun MSGD 1
+uuuuuuun uuuuuuuuuu uuuuun uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuununu (chl)
+
+| op code | address | remain | data |
+|    8    |    10   |    6   |  40  | -> 64 bits
+
+u = 0
+n = 1
+
+MOV 1 1
+MOV 2 1
+ADD 1 2
+MSG 1
