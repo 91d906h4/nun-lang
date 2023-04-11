@@ -3,7 +3,7 @@
   <h3 align="center">nun lang</h3>
 
   <p align="center">
-  A turing complete tiny programming language.
+  A turing complete tiny esoteric programming language.
   </p>
 </div>
 
