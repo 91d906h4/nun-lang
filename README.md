@@ -18,6 +18,7 @@
     </li>
     <li><a href="#basic">Basic</a></li>
     <li><a href="#instructors">Instructors</a></li>
+    <li><a href="#examples">Examples</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -58,6 +59,23 @@ op code   address   remain                  data
 ## Instructors
 
 nun lang provides 10 operators and3 remain types (for more information please refer to the source code).
+
+## Examples
+
+1. A program to multiply 1073741825 by 8, and print the result on the screen.
+
+```
+uuuuunnn uuuuuuuuun uuuuuu uuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuun MOV 1 1073741825
+uuuuunnn uuuuuuuunu uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuu MOV 2 8
+uuuuunun uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunu MUL 1 2
+uuuuuunu uuuuuuuuun uuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu MSGA 1 // 8589934600
+```
+
+A compressed version:
+
+```
+uuuuunnnuuuuuuuuunuuuuuuuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuunnnuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuuuuununuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunuuuuuuunuuuuuuuuuunuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+```
 
 ## Lisence
 
