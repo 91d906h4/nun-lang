@@ -61,4 +61,4 @@ nun lang provides 10 operators and3 remain types (for more information please re
 
 ## Lisence
 
-Distributed under the MIT License. See `LICENSE.md` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
