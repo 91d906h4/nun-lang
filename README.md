@@ -35,6 +35,8 @@ nun lang is a turing complete programming language that only use 2 chars (n and 
 
 Basically, u means 0, and n means 1, you can consider this is a machine code level language (only use 0 and 1).
 
+Why we use u and n? Because it's difficult to read, debug and code.
+
 ### Built With
 
 nun lang is built with C (in 200 lines), it makes nun lang to run fast (but you will spend much time to code it).
