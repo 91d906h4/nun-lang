@@ -17,7 +17,7 @@
       </ul>
     </li>
     <li><a href="#basic">Basic</a></li>
-    <li><a href="#instructors">Instructors</a></li>
+    <li><a href="#instructions">Instructions</a></li>
     <li><a href="#example">Example</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -61,7 +61,7 @@ op code   address   remain                  data
 // The ASCII code of 'H' is 1001000.
 ```
 
-## Instructors
+## Instructions
 
 nun lang provides 10 operators and3 remain types (for more information please refer to the source code).
 
