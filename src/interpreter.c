@@ -49,8 +49,8 @@ int main(int argc, char* argv[]) {
             continue;
         }
 
-        if (bit == 110) bit = 1;
-        else if (bit == 117) bit = 0;
+        if (bit == 110) bit = 1; // n
+        else if (bit == 117) bit = 0; // u
         else continue; // Ignore illegal chars.
 
         instructor[bitcount] = bit;
