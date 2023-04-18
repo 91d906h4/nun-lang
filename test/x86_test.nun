@@ -50,7 +50,7 @@ op code:
         div the data in memory (specified by offset) by a value.
 
     10: skip
-        program will skip next n (value in the memory) char.
+        program will skip next n (value of data) char if condition (value in memory) is not 0.
 
 remarks:
     1. support 1000 x 4 bytes memory (0 ~ 999).
