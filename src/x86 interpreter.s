@@ -74,6 +74,8 @@ CCHECKER:
     movsx   eax, BYTE PTR [esp + 16]
 
     # ignore any chars except 'n' (110) and 'u' (117)
+    # in nun-lang, 'n' means 1 and 'u' means 0
+    # for example, 1001 (9) in nun-lang will be nuun
     cmp     eax, 110
     je      CHAR_N
     cmp     eax, 117
