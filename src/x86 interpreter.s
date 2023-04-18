@@ -74,8 +74,6 @@ CCHECKER:
     movsx   eax, BYTE PTR [esp + 16]
 
     # ignore any chars except 'n' (110) and 'u' (117)
-    # in nun-lang, 'n' means 1 and 'u' means 0
-    # for example, 1001 (9) in nun-lang will be nuun
     cmp     eax, 110
     je      CHAR_N
     cmp     eax, 117
@@ -268,10 +266,14 @@ INST_10: # skip
     mov     edx, DWORD PTR [esp + 40]
     imul    edx, 4
     add     edx, 52
-    mov     eax, DWORD PTR [esp + edx]
+    cmp     DWORD PTR [esp + edx], 0
+    je      INST_10T
+
+    mov     eax, DWORD PTR [esp + 48]
     add     eax, 1
     mov     DWORD PTR [esp + 52], eax
 
+INST_10T:
     jmp     NEXT
 
 SKIP:
