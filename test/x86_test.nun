@@ -1,0 +1,56 @@
+nuuuuuu u uuuuuuuuu u uuuuu u nuuuuunuuuuuuuuuuuu u // A
+
+nunuuuu u uuuuuuuun u uuuuu u nnuuuunuuuuuuuuuuuu u // store C (67) to memory 256
+
+unnuuuu u uuuuuuuun u uuuuu u nuuuuuuuuuuuuuuuuuu u // add 1 to memory 256
+
+nnnuuuu u uuuuuuuun u uuuuu u nuuuuuuuuuuuuuuuuuu u // s_b 1 to memory 256
+
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+
+nunuuuu u unuuuuuuu u uuuuu u nnuuuuuuuuuuuuuuuuu u // store 1 to memory 2
+
+ununuuu u unuuuuuuu u uuuuu u uuuuuuuuuuuuuuuuuuu u nnn
+
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+nnuuuuu u uuuuuuuuu u uuuuu u uuuuuuuunuuuuuuuuuu u // pri_t C from memory 256
+
+op code |  address  | reman |         data        |
+
+op code:
+    01: print char directly
+        print the data as a char directly.
+
+    02: print integer directly
+        print the data as a integer directly.
+
+    03: print char in memory
+        print the data in memory (specified by offset) as a char.
+
+    04: print integer in memory
+        print the data in memory (specified by offset) as a integer.
+
+    05: store value to memory
+        store the data to memory (specified by offset).
+
+    06: add
+        add a value to data in memory (specified by offset).
+
+    07: sub
+        sub a value from data in memory (specified by offset).
+
+    08: mul
+        mul the data in memory (specified by offset) by a value.
+
+    09: div
+        div the data in memory (specified by offset) by a value.
+
+    10: skip
+        program will skip next n (value in the memory) char.
+
+remarks:
+    1. support 1000 x 4 bytes memory (0 ~ 999).
