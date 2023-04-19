@@ -68,7 +68,7 @@ _main:
     # store filename address to stack [esp + 12]
     mov     DWORD PTR [esp + 12], eax
 
-    jmp NEXT
+    jmp     NEXT
 
 CCHECKER:
     movsx   eax, BYTE PTR [esp + 16]
@@ -155,7 +155,7 @@ CHSTATUS:
     mov     DWORD PTR [esp + 20], 0
 
     # check op code
-    # IST (instruction)
+    # INST (instruction)
     cmp     DWORD PTR [esp + 36], 1
     je      INST_01
     cmp     DWORD PTR [esp + 36], 2
@@ -267,13 +267,13 @@ INST_10: # skip
     imul    edx, 4
     add     edx, 52
     cmp     DWORD PTR [esp + edx], 0
-    je      INST_10T
+    je      NEXT
 
     mov     eax, DWORD PTR [esp + 48]
     add     eax, 1
     mov     DWORD PTR [esp + 52], eax
 
-INST_10T:
+INST_UK: # instruction unknow
     jmp     NEXT
 
 SKIP:
