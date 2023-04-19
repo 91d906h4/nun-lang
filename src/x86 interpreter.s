@@ -121,7 +121,7 @@ C20: # condition 20: if _status_recorder == 2 && _status_counter == 6
 
 C30: # condition 30: if _status_recorder == 3 && _status_counter == 20
     cmp     DWORD PTR [esp + 20], 3
-    jne     C20
+    jne     UPDATE
     cmp     DWORD PTR [esp + 24], 20
     je      CHSTATUS
 
