@@ -20,20 +20,6 @@
     # |             [memory]
     # esp + 4052    [memory]
 
-.section .data
-fopen_mode:
-    .ascii "r\0"
-
-print_char:
-    .ascii "%c\0"
-
-print_integer:
-    .ascii "%d\0"
-
-error_message:
-    .ascii "Cannot open file '%s'.\0"
-
-.section .code
 _main:
     push    ebp
     mov     ebp, esp
@@ -313,3 +299,16 @@ ERROR:
 EXIT:
     leave
     ret
+
+.section .data
+fopen_mode:
+    .ascii "r\0"
+
+print_char:
+    .ascii "%c\0"
+
+print_integer:
+    .ascii "%d\0"
+
+error_message:
+    .ascii "Cannot open file '%s'.\0"
