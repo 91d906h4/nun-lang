@@ -40,7 +40,7 @@ Why we use u and n? Because it's difficult for programmers to read, debug and co
 
 ### Built With
 
-nun lang is built with C (in 200 lines), it makes nun lang to run fast (but you will spend much time to code it).
+nun lang is built with x86_64 assembly (in 314 lines), it makes nun lang to run fast (but you will spend much time to code it).
 
 ## Basic
 
